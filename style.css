@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tarjeta-perfil {
+    background-color: #1a1a1a;
+    border: 2px solid #0070f3;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 112, 243, 0.2);
+}
+
+h1 {
+    color: #0070f3;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+p {
+    color: #aaaaaa;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.estado-online {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 6px 15px;
+
+    background-color: #0070f3;
+    color: white;
+
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
