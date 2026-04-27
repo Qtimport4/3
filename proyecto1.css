@@ -1,0 +1,35 @@
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #00c853;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00c853;
+    text-decoration: none;
+}
