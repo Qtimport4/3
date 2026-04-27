@@ -1,10 +1,24 @@
 body {
-    background-color: #0a0a0a;
-    color: white;
-    font-family: Arial, sans-serif;
-    padding: 40px;
-}
+    background: linear-gradient(135deg, #0a0a0a, #001a0f);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tarjeta-perfil {
+    background: linear-gradient(145deg, #121212, #1c1c1c);
+    border: 2px solid #00c853; /* 🔥 verde */
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 200, 83, 0.2);
+}
 
 .container {
     max-width: 700px;
