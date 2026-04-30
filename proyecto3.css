@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo */
+body {
+    background: linear-gradient(135deg, #0a0a0a, #1a1a00);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 NUEVO CONTENEDOR */
+.contenedor-proyecto {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Título */
+h1 {
+    color: #ffd600; /* 🟡 amarillo */
+    margin-bottom: 20px;
+}
+
+/* Imagen arriba */
+img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Texto en bloque */
+.texto {
+    text-align: left;
+}
+
+/* Párrafos */
+.texto p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #dddddd;
+}
+
+/* Botón volver */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ffd600; /* 🟡 amarillo */
+    text-decoration: none;
+}
