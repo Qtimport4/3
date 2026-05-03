@@ -26,9 +26,10 @@ h1 {
 
 /* Imagen arriba */
 img {
-    width: 50%;
+    display: block;
+    margin: 0 auto 30px auto; 
+    width: 60%;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 /* Texto en bloque */
