@@ -52,8 +52,3 @@ a {
     color: #00c853;
     text-decoration: none;
 }
-
-img:hover {
-    transform: scale(1.03);
-    transition: 0.3s;
-}
