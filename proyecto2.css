@@ -1,19 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/* Fondo */
-body {
-    background: linear-gradient(135deg, #0a0a0a, #1a0f00);
-    color: white;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-/* 🔥 NUEVO CONTENEDOR */
+/* Contenedor */
 .contenedor-proyecto {
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 40px;
 }
@@ -21,32 +8,36 @@ body {
 /* Título */
 h1 {
     color: #ff6f00;
-    margin-bottom: 20px;
+    text-align: center; /* 🔥 centra */
+    margin-bottom: 30px;
 }
 
-/* Imagen arriba */
+/* Imagen */
 img {
-    width: 50%;
+    display: block;
+    margin: 0 auto 25px auto; /* 🔥 centra */
+    width: 60%;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
-/* Texto en bloque */
+/* Texto */
 .texto {
-    text-align: left; /* puedes cambiar a center si quieres */
+    max-width: 650px;
+    margin: 0 auto; /* 🔥 centra bloque */
+    text-align: left;
 }
 
 /* Párrafos */
 .texto p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    color: #cccccc;
+    margin-bottom: 18px;
+    line-height: 1.7;
+    color: #dddddd;
 }
 
-/* Botón volver */
+/* Volver */
 a {
-    display: inline-block;
-    margin-top: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
     color: #ff6f00;
-    text-decoration: none;
 }
