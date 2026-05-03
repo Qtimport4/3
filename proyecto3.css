@@ -6,7 +6,7 @@
 
 /* Fondo */
 body {
-    background: linear-gradient(135deg, #0a0a0a, #1a1a00);
+    background: linear-gradient(135deg, #0a0a0a, #1a001f);
     color: white;
     font-family: 'Segoe UI', sans-serif;
 }
@@ -20,7 +20,7 @@ body {
 
 /* Título */
 h1 {
-    color: #ffd600; /* 🟡 amarillo */
+    color: #9c27b0; /* 🟣 morado */
     margin-bottom: 20px;
 }
 
@@ -48,6 +48,6 @@ img {
 a {
     display: inline-block;
     margin-top: 20px;
-    color: #ffd600; /* 🟡 amarillo */
+    color: #9c27b0; /* 🟣 morado */
     text-decoration: none;
 }
